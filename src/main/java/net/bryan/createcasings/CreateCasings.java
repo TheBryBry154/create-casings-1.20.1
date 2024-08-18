@@ -1,5 +1,6 @@
 package net.bryan.createcasings;
 
+import net.bryan.createcasings.Item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -13,6 +14,6 @@ public class CreateCasings implements ModInitializer {
 	public void onInitialize() {
 
 
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
 	}
 }
