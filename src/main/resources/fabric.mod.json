@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "createcasings",
+	"version": "${version}",
+	"name": "Create-Casings",
+	"description": "Adds new casings to Create!",
+	"authors": [
+		"BryBry154"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/create-casings/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.bryan.createcasings.CreateCasings"
+		],
+		"Client": [
+			"net.bryan.createcasings.CreateCasingsClient"
+		],
+		"fabric-datagen": [
+			"net.bryan.createcasings.CreateCasingsDataGenerator"
+		]
+	},
+	"mixins": [
+		"create-casings.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.2",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
