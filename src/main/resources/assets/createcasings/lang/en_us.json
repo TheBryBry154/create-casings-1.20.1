@@ -1,3 +1,9 @@
 {
-  "item.createcasings.thing": "Thing"
+  "item.createcasings.thing": "Thing",
+
+  "block.createcasings.yap_block": "Yap Block",
+
+  "block.creativecasings.goof_block": "Block of Goof",
+
+"itemgroup.yap": "Yap Stuff Idk"
 }

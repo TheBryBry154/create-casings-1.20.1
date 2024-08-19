@@ -1,6 +1,8 @@
 package net.bryan.createcasings;
 
+import net.bryan.createcasings.Item.ModItemGroups;
 import net.bryan.createcasings.Item.ModItems;
+import net.bryan.createcasings.block.ModBlocks;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -13,7 +15,9 @@ public class CreateCasings implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
+
 }

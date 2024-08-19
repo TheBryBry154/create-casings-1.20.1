@@ -30,7 +30,7 @@ public class ModItems {
     public static void registerModItems() {
     CreateCasings.LOGGER.info("registering Mod Items for " + CreateCasings.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::additemstoingredienttabItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INVENTORY).register(ModItems::additemstoingredienttabItemGroup);
 }
 
 }
