@@ -18,7 +18,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.Thing)).entries((displayContext, entries) -> {
                         entries.add(ModItems.Thing);
                         entries.add(ModBlocks.YAP_BLOCK);
-
+                        entries.add(ModBlocks.GOOF_BLOCK);
 
 
                     }).build());

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "createcasings:goof_block"
+    },
+ "Y": {
+   "item": "createcasings:thing"
+ }
+
+  },
+  "pattern": [
+    "###",
+    "#Y#",
+    "###"
+  ],
+  "result": {
+    "item": "createcasings:yap_block"
+  }
+}
