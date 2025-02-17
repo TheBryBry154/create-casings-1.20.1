@@ -18,6 +18,7 @@ public class ModItems {
     public static final Item BRYBRY = registerItem("brybry", new Item(new FabricItemSettings()));
 
 
+
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(Thing); entries.add(WHEEL); entries.add(TYTAN); entries.add(WIZARD); entries.add(BRYBRY);
     }

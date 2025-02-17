@@ -44,6 +44,8 @@ public class ModBlocks {
             new Block((FabricBlockSettings.copyOf(Blocks.REDSTONE_BLOCK).sounds(BlockSoundGroup.DECORATED_POT_SHATTER).strength(200, 100).luminance(900))));
 
 
+    public static final Block BEN_BLOCK = registerBlock("ben_block",
+            new Block ((FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).sounds(BlockSoundGroup.WOOL).strength(2000, 1000).luminance(0))));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

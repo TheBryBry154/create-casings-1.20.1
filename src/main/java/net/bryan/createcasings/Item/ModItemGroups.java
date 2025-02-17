@@ -27,6 +27,7 @@ public class ModItemGroups {
                         entries.add(ModItems.TYTAN);
                         entries.add(ModItems.WIZARD);
                         entries.add(ModItems.BRYBRY);
+                        entries.add(ModBlocks.BEN_BLOCK);
 
 
 
