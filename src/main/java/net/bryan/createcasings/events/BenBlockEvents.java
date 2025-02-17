@@ -22,8 +22,8 @@ public class BenBlockEvents {
         cat.refreshPositionAndAngles(pos.getX() + 0.5, pos.getY(), pos.getZ() + 0.5, 0, 0);
         world.spawnEntity(cat);
 
-        // Spawn cat particles
-        world.spawnParticles(CreateCasings.CAT_PARTICLE_SPAWN, pos.getX() + 0.5, pos.getY() + 1, pos.getZ() + 0.5,
-                5, 0.3, 0.3, 0.3, 0.01);
+        // Spawn cat particles :3
+        //world.spawnParticles(CreateCasings.CAT_PARTICLE_SPAWN, pos.getX() + 0.5, pos.getY() + 1, pos.getZ() + 0.5,
+               // 5, 0.3, 0.3, 0.3, 0.01;);
     }
 }

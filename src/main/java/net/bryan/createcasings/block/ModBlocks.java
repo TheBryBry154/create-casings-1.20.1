@@ -47,6 +47,9 @@ public class ModBlocks {
     public static final Block BEN_BLOCK = registerBlock("ben_block",
             new Block ((FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).sounds(BlockSoundGroup.WOOL).strength(2000, 1000).luminance(0))));
 
+    public static final Block EVAN_BLOCK = registerBlock("evan_block",
+            new Block ((FabricBlockSettings.copyOf(Blocks.ATTACHED_MELON_STEM).sounds(BlockSoundGroup.WOOL).strength(2000, 1000).luminance(10))));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(CreateCasings.MOD_ID, name), block);
