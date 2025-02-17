@@ -1,8 +1,6 @@
 {
-  "parent": "minecraft:block/cube_column",
+  "parent": "block/cube_all",
   "textures": {
-    "end": "createcasings:block/goof_block_top",
-    "side": "createcasings:block/goof_block_bottom"
-  }}
-
-
+    "all": "createcasings:block/goof_block"
+  }
+}

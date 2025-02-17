@@ -5,6 +5,7 @@ import net.bryan.createcasings.Item.ModItems;
 import net.bryan.createcasings.block.ModBlocks;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,6 +19,9 @@ public class CreateCasings implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		FuelRegistry.INSTANCE.add(ModItems.WIZARD, 10);
+
 	}
+
 
 }

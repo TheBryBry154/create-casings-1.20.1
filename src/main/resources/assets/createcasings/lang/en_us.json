@@ -1,9 +1,25 @@
 {
   "item.createcasings.thing": "Thing",
 
+  "item.createcasings.tytan": "Tytan",
+
+  "item.createcasings.wizard": "Wizard",
+
+  "item.createcasings.brybry": "Bry Bry 154",
+
+  "item.createcasings.wheel": "wheel",
+
   "block.createcasings.yap_block": "Yap Block",
+
+  "block.createcasings.dmv_block": "DMV Block",
+
+  "block.createcasings.goober_block": "Goober Block",
 
   "block.createcasings.goof_block": "Block of Goof",
 
-"itemgroup.yap": "Yap Stuff Idk"
+  "block.createcasings.silvern_block": "If you like Silvern...",
+
+  "block.createcasings.racer_block": "If anyone kills or kidnaps my fish i swear i am starting a war",
+
+"itemgroup.yap": "DMV SMP Mod"
 }
