@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "createcasings:block/dmv_block"
+    }
+  }
+}

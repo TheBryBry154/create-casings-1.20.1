@@ -17,6 +17,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import oshi.util.platform.unix.solaris.KstatUtil;
 
 
 public class ModBlocks {
@@ -38,6 +39,10 @@ public class ModBlocks {
 
     public static final Block RACER_BLOCK = registerBlock("racer_block",
             new Block((FabricBlockSettings.copyOf(Blocks.ICE).sounds(BlockSoundGroup.SOUL_SOIL).strength(200, 100).luminance(900))));
+
+    public static final Block WHATOK_BLOCK = registerBlock("whatok_block",
+            new Block((FabricBlockSettings.copyOf(Blocks.REDSTONE_BLOCK).sounds(BlockSoundGroup.DECORATED_POT_SHATTER).strength(200, 100).luminance(900))));
+
 
 
     private static Block registerBlock(String name, Block block) {

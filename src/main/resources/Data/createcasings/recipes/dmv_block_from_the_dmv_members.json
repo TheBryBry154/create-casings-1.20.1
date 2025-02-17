@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+   "catagory": "misc",
+   "pattern": [
+     "WWW",
+     "wyw",
+     "BtB"
+
+   ],
+  "key": {
+    "W": {
+      "item": "createcasings:wheel"
+    },
+    "w": {
+      "item": "createcasings:wizard"
+    },
+    "y": {
+      "item":"createcasings:yap_block"
+    },
+    "B": {
+      "item": "createcasings:brybry"
+    },
+    "t": {
+      "item": "createcasings:tytan"
+    }
+  },
+  "result": {
+    "item": "createcasings:dmv_block"
+  }
+}
+

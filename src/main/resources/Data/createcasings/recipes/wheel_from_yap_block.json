@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+   "catagory": "misc",
+   "pattern": [
+     "###",
+     "###",
+     "###"
+
+   ],
+  "key": {
+    "#": {
+      "item": "createcasings:wheel"
+    }
+  },
+  "result": {
+    "item": "createcasings:yap_block"
+  }
+}
+

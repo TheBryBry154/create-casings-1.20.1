@@ -1,0 +1,14 @@
+{
+  "type":"minecraft:crafting_shapeless",
+  "catagory": "building",
+  "ingredients": [
+    {
+      "item": "createcasings:yap_block"
+    }
+
+  ],
+  "result": {
+    "item": "createcasings:wheel",
+    "count": 9
+  }
+}

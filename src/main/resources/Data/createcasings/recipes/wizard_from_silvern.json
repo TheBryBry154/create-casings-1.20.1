@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+   "catagory": "misc",
+   "pattern": [
+     "##",
+     "##"
+
+   ],
+  "key": {
+    "#": {
+      "item": "createcasings:silvern_block"
+    }
+  },
+  "result": {
+    "item": "createcasings:wizard"
+  }
+}
+
