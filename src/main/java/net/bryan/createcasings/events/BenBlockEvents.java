@@ -17,12 +17,13 @@ public class BenBlockEvents {
         }));
     }
 
-    public <CatParticleSpawn> void spawnCat(ServerWorld world, BlockPos pos) {
+    public void spawnCat(ServerWorld world, BlockPos pos) {
         CatEntity cat = new CatEntity(EntityType.CAT, world);
         cat.refreshPositionAndAngles(pos.getX() + 0.5, pos.getY(), pos.getZ() + 0.5, 0, 0);
         world.spawnEntity(cat);
 
-        // spawn yap particles for cat :D
-        CatParticleSpawn catParticleSpawn = (CatParticleSpawn) CreateCasings.CAT_PARTICLE_SPAWN;
+        // Spawn cat particles
+        world.spawnParticles(CreateCasings.CAT_PARTICLE_SPAWN, pos.getX() + 0.5, pos.getY() + 1, pos.getZ() + 0.5,
+                5, 0.3, 0.3, 0.3, 0.01);
     }
 }
