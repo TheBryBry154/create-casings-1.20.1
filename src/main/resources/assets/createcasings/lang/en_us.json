@@ -9,6 +9,9 @@
 
   "item.createcasings.wheel": "wheel",
 
+  "item.createcasings.life_is_a_mystery_music_disc": "Life is a Mystery - Mr. Mystery",
+  "item.createcasings.life_is_a_mystery_music_disc.desc": "Life is a Mystery",
+
   "block.createcasings.yap_block": "Yap Block",
 
   "block.createcasings.dmv_block": "DMV Block",

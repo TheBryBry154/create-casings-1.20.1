@@ -5,17 +5,26 @@
       "createcasings:your_mother"
     ]
   },
-  "life_full": {
-    "subtitle": "sound.createcasings.life_full",
+  "life": {
+    "subtitle": "sound.createcasings.life",
     "sounds": [
-      "createcasings:life_full"
+      "createcasings:life"
     ]
-  }, "life": {
-  "subtitle": "sound.createcasings.life",
+  }, "life_full": {
   "sounds": [
-    "createcasings:life"
+    {
+      "name": "createcasings:disc/life_full",
+      "stream": true
+    }
   ]
-}
+  },"bar_brawl": {
+"sounds":   [
+  {
+      "name": "createcasings:bar_brawl",
+      "stream": true
+  }
+             ]
+                  }
 }
 
 
