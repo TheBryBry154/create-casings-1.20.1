@@ -22,6 +22,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DMV_BLOCK);
                         entries.add(ModBlocks.GOOBER_BLOCK);
                         entries.add(ModBlocks.RACER_BLOCK);
+                        entries.add(ModBlocks.WHATOK_BLOCK);
                         entries.add(ModItems.Thing);
                         entries.add(ModItems.WHEEL);
                         entries.add(ModItems.TYTAN);

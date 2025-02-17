@@ -1,0 +1,22 @@
+{
+  "your_mother": {
+    "subtitle": "sound.createcasings.your_mother",
+    "sounds": [
+      "createcasings:your_mother"
+    ]
+  },
+  "life_full": {
+    "subtitle": "sound.createcasings.life_full",
+    "sounds": [
+      "createcasings:life_full"
+    ]
+  }, "life": {
+  "subtitle": "sound.createcasings.life",
+  "sounds": [
+    "createcasings:life"
+  ]
+}
+}
+
+
+

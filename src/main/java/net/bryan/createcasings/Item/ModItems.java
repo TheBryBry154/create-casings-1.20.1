@@ -16,7 +16,7 @@ public class ModItems {
     public static final Item TYTAN = registerItem("tytan", new Item(new FabricItemSettings().food(ModFoodComponents.TYTAN)));
     public static final Item WIZARD = registerItem("wizard", new Item(new FabricItemSettings().food(ModFoodComponents.WIZARD)));
     public static final Item BRYBRY = registerItem("brybry", new Item(new FabricItemSettings()));
-
+    public static final Item MUSIC = registerItem("music", new Item(new FabricItemSettings()));
 
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {

@@ -1,5 +1,6 @@
 package net.bryan.createcasings.block.custom;
 
+import net.bryan.createcasings.CreateCasings;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.GravelBlock;
@@ -26,7 +27,7 @@ public class GooberBlock extends Block
 
 @Override
 public ActionResult  onUse (BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
-    world.getDimension();
+    world.playSound(player, pos, CreateCasings.CustomSounds.LIFE_IS_A_MYSTERY_CLIP, SoundCategory.BLOCKS, 10f, 1f  );
 
     return ActionResult.SUCCESS;
 
