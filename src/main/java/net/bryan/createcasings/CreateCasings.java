@@ -3,19 +3,10 @@ package net.bryan.createcasings;
 import net.bryan.createcasings.Item.ModItemGroups;
 import net.bryan.createcasings.Item.ModItems;
 import net.bryan.createcasings.block.ModBlocks;
-import net.bryan.createcasings.entity.ModEntities;
-import net.bryan.createcasings.entity.custom.WizardEntity;
 import net.bryan.createcasings.events.BenBlockEvents;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
-import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.fabricmc.fabric.api.particle.v1.FabricParticleTypes;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
-import net.minecraft.client.render.entity.model.EntityModelLayer;
-import net.minecraft.entity.EntityDimensions;
-import net.minecraft.entity.EntityType;
-import net.minecraft.entity.SpawnGroup;
-import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.particle.DefaultParticleType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -29,14 +20,8 @@ public class CreateCasings implements ModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 	public static final DefaultParticleType CAT_PARTICLE_SPAWN = FabricParticleTypes.simple();
 
-
-
 	@Override
 	public void onInitialize() {
-		// Add this line before the FabricDefaultAttributeRegistry
-		LOGGER.info("Initializing " + MOD_ID);
-
-		// Your existing registrations
 		CustomSounds.initialize();
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
@@ -44,19 +29,9 @@ public class CreateCasings implements ModInitializer {
 		FuelRegistry.INSTANCE.add(ModItems.WIZARD, 10);
 		new BenBlockEvents().onInitialize();
 		Registry.register(Registries.PARTICLE_TYPE, Identifier.of(MOD_ID, "cat_particle_spawn"), CAT_PARTICLE_SPAWN);
-		LOGGER.info("Registering Wizard Entity Type");
-		FabricDefaultAttributeRegistry.register(ModEntities.WIZARD, WizardEntity.createWizardAttributes());
-		ModEntities.registerModEntities();
 
 
-
-		LOGGER.info("Registering Wizard Attributes");
-
-
-
-		LOGGER.info(MOD_ID + " mod initialized!");
 	}
-
 
 	public class CustomSounds {
 

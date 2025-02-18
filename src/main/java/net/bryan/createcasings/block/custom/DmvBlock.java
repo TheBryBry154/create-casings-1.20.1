@@ -1,6 +1,7 @@
 package net.bryan.createcasings.block.custom;
 
 import net.bryan.createcasings.CreateCasings;
+import net.bryan.createcasings.sound.ModSounds;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.client.item.TooltipContext;
@@ -26,7 +27,7 @@ public class DmvBlock extends Block {
 
     @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
-        world.playSound(player, pos, CreateCasings.CustomSounds.YOUR_MOTHER, SoundCategory.BLOCKS, 10f, 1f);
+        world.playSound(player, pos, ModSounds.YOUR_MOTHER, SoundCategory.BLOCKS, 10f, 1f);
 
 
         return ActionResult.SUCCESS;

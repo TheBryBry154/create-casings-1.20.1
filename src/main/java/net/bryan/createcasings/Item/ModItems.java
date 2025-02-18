@@ -1,11 +1,13 @@
 package net.bryan.createcasings.Item;
 
 import net.bryan.createcasings.CreateCasings;
+import net.bryan.createcasings.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.MusicDiscItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -16,11 +18,13 @@ public class ModItems {
     public static final Item TYTAN = registerItem("tytan", new Item(new FabricItemSettings().food(ModFoodComponents.TYTAN)));
     public static final Item WIZARD = registerItem("wizard", new Item(new FabricItemSettings().food(ModFoodComponents.WIZARD)));
     public static final Item BRYBRY = registerItem("brybry", new Item(new FabricItemSettings()));
-    public static final Item MUSIC = registerItem("music", new Item(new FabricItemSettings()));
+
+    public static final Item LIFE_IS_A_MYSTERY_MUSIC_DISC = registerItem("life_is_a_mystery_music_disc",
+            new MusicDiscItem(7, ModSounds.LIFE_IS_A_MYSTERY_FULL,new FabricItemSettings().maxCount(1), 122));
 
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
-        entries.add(Thing); entries.add(WHEEL); entries.add(TYTAN); entries.add(WIZARD); entries.add(BRYBRY);
+        entries.add(Thing); entries.add(WHEEL); entries.add(TYTAN); entries.add(WIZARD); entries.add(BRYBRY); entries.add(LIFE_IS_A_MYSTERY_MUSIC_DISC);
     }
 
     private static Item registerItem(String name, Item item) {

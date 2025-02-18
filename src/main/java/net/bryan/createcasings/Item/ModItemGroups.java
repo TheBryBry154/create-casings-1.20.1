@@ -23,12 +23,15 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GOOBER_BLOCK);
                         entries.add(ModBlocks.RACER_BLOCK);
                         entries.add(ModBlocks.WHATOK_BLOCK);
+                        entries.add(ModBlocks.BEN_BLOCK);
                         entries.add(ModItems.Thing);
                         entries.add(ModItems.WHEEL);
                         entries.add(ModItems.TYTAN);
                         entries.add(ModItems.WIZARD);
                         entries.add(ModItems.BRYBRY);
-                        entries.add(ModBlocks.BEN_BLOCK);
+                        entries.add(ModItems.LIFE_IS_A_MYSTERY_MUSIC_DISC);
+
+
 
 
 
