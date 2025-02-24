@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "createcasings:item/life_is_a_mystery_music_disc"
-  }
-
-}

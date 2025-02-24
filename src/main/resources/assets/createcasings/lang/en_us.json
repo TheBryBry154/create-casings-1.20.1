@@ -10,6 +10,7 @@
   "item.createcasings.wheel": "wheel",
 
   "item.createcasings.life_is_a_mystery_music_disc": "Life is a Mystery - Mr. Mystery",
+
   "item.createcasings.life_is_a_mystery_music_disc.desc": "Life is a Mystery",
 
   "block.createcasings.yap_block": "Yap Block",
@@ -28,6 +29,6 @@
 
   "block.createcasings.ben_block": "Ben Block",
 
-  "block.createcasings.evan_block": "Block of Evan",
+  "block.createcasings.evan_block": "Block of Evan the goob",
 "itemgroup.yap": "DMV SMP Mod"
 }

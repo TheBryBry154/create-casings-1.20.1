@@ -17,14 +17,7 @@
       "stream": true
     }
   ]
-  },"bar_brawl": {
-"sounds":   [
-  {
-      "name": "createcasings:bar_brawl",
-      "stream": true
-  }
-             ]
-                  }
+}
 }
 
 
