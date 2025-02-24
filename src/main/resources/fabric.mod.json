@@ -18,7 +18,7 @@
 		"main": [
 			"net.bryan.createcasings.CreateCasings"
 		],
-		"Client": [
+		"client": [
 			"net.bryan.createcasings.CreateCasingsClient"
 		],
 		"fabric-datagen": [
